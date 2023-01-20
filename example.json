@@ -1,0 +1,17 @@
+{
+    "resourcefilter" :{
+            "vendorName": "aws",
+            "service": "AmazonEC2",
+            "productFamily": "Compute Instance", 
+            "region": "us-east-1",
+            "attributeFilters": [
+                { "instanceType": "m3.large" }, 
+                { "operatingSystem":"Linux" }, 
+                { "tenancy": "Shared"}, 
+                { "capacitystatus": "Used"}, 
+                {"preInstalledSw": "NA"}
+            ]
+        },
+     "pricefilter":{ "purchaseOption": "on_demand"},
+     "currency":"USD"
+}
